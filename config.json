@@ -1,0 +1,29 @@
+{
+  "clientId": "Q0Vu9LWF6hmFA1NuvT2O72PKtV8u3rieZwkq616a08G88Zengm",
+  "clientSecret": "Gr2Kp4a0TbHoitdkjVTQ5nLrYNjthupo5QWS2VlQ",
+  "redirectUri": "https://www.smartreportz.com/api/qbocallback",
+  "configurationEndpoint": "https://developer.api.intuit.com/.well-known/openid_configuration",
+  "qboapi_uri": "https://quickbooks.api.intuit.com/v3/company/",
+  "scopes": {
+    "sign_in_with_intuit": [
+      "com.intuit.quickbooks.accounting",
+      "openid",
+      "profile",
+      "email",
+      "phone",
+      "address"
+    ],
+    "connect_to_quickbooks": [
+      "com.intuit.quickbooks.accounting"
+    ],
+    "connect_handler": [
+      "com.intuit.quickbooks.accounting",
+      "openid",
+      "profile",
+      "email",
+      "phone",
+      "address"
+    ]
+  },
+  "webhooks_token": "cb642a53-4a28-4f58-855e-aa1e31bc07a6"
+}
